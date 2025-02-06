@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyDesk.Presentation", "H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyDesk.Domain", "HappyDesk.Domain\HappyDesk.Domain.csproj", "{0A952D7D-8E6C-4E4D-A0AA-2EE10505E733}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyDesk.Infrastructure", "HappyDesk.Infrastructure\HappyDesk.Infrastructure.csproj", "{9AFB2E2F-B613-4EE2-87F7-1CD698DAE0D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0A952D7D-8E6C-4E4D-A0AA-2EE10505E733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A952D7D-8E6C-4E4D-A0AA-2EE10505E733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A952D7D-8E6C-4E4D-A0AA-2EE10505E733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AFB2E2F-B613-4EE2-87F7-1CD698DAE0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFB2E2F-B613-4EE2-87F7-1CD698DAE0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFB2E2F-B613-4EE2-87F7-1CD698DAE0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFB2E2F-B613-4EE2-87F7-1CD698DAE0D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
