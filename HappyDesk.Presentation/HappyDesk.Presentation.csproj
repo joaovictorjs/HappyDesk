@@ -9,4 +9,13 @@
         <UseWindowsForms>true</UseWindowsForms>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="Resources\icon.ico" />
+      <Resource Include="Resources\icon.ico" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HappyDesk.Domain\HappyDesk.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
