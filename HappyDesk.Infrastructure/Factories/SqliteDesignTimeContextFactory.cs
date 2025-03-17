@@ -1,4 +1,4 @@
-using HappyDesk.Domain.Contants;
+using HappyDesk.Domain.Constants;
 using HappyDesk.Infrastructure.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
@@ -10,7 +10,7 @@ public class SqliteDesignTimeContextFactory : IDesignTimeDbContextFactory<Sqlite
     public SqliteContext CreateDbContext(string[] args)
     {
         var builder = new DbContextOptionsBuilder<SqliteContext>();
-        builder.UseSqlite($"Data Source={Filenames.Database};Version=3;");
+        builder.UseSqlite($"Data Source={Filenames.Database}");
         return new SqliteContext(builder.Options);
     }
 }
