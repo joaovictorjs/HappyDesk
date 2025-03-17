@@ -2,6 +2,7 @@
 using HappyDesk.Infrastructure.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,42 +10,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HappyDesk.Infrastructure.Migrations
 {
     [DbContext(typeof(SqliteContext))]
-    partial class SqliteContextModelSnapshot : ModelSnapshot
+    [Migration("20250206204610_CriarTabelaPreferencias")]
+    partial class CriarTabelaPreferencias
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.1");
-
-            modelBuilder.Entity("HappyDesk.Domain.Entities.CredentialsEntity", b =>
-                {
-                    b.Property<int>("Code")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("codigo");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("email");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("password");
-
-                    b.HasKey("Code");
-
-                    b.ToTable("credenciais");
-
-                    b.HasData(
-                        new
-                        {
-                            Code = 1,
-                            Email = "",
-                            Password = ""
-                        });
-                });
 
             modelBuilder.Entity("HappyDesk.Domain.Entities.PreferencesEntity", b =>
                 {
