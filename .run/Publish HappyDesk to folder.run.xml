@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Publish HappyDesk to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
-    <riderPublish configuration="Release" delete_existing_files="true" platform="Any CPU" produce_single_file="true" ready_to_run="true" runtime="win-x64" target_folder="$PROJECT_DIR$/HappyDesk.Presentation/bin/Release/net9.0-windows/win-x64/publish" target_framework="net9.0-windows" uuid_high="373710877528901533" uuid_low="-5853710682273551172" />
+    <riderPublish configuration="Release" delete_existing_files="true" include_native_libs_for_self_extract="true" platform="Any CPU" produce_single_file="true" ready_to_run="true" runtime="win-x64" target_folder="$PROJECT_DIR$/HappyDesk.Presentation/bin/Release/net9.0-windows/win-x64/publish" target_framework="net9.0-windows" uuid_high="373710877528901533" uuid_low="-5853710682273551172" />
     <method v="2" />
   </configuration>
 </component>
